@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+body{
+    width: 100vw;
+    
+}
+
+
+#table{
+    border-collapse: collapse;
+    /* width: 100vw; */
+    background-color: #ECF0F1;
+    width: 100vw;
+    overflow-y: scroll;
+
+    
+    
+}
+
+table,td,th{
+    border: 1px solid #DFE4EA;
+   /* width: 1000px;
+   height: 40px; */
+}
+
+th{
+    width: 3%;
+    height: 35px;
+}
+
+td{
+    width: 50px;
+    height: 35px;
+    overflow-x: auto;
+}
+/* td{
+    width: 1000px;
+    height: 20px;
+} */
+
+.empty-th{
+    background-color: #747D8C;
+}
+
+.cell-func{
+    height: 3.5rem;
+    background-color: #ecf0f1;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    column-gap: 26px;
+}
+
+.cell-func > select{
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    font-size: 17px;
+}
+
+.font-family-prop {
+    padding: 0.4rem;
+
+}
+
+.font-size-prop {
+    padding: 0.4rem;
+}
+
+
+.color-prop{
+    position: relative;
+    
+}
+
+.color-prop > input {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.bold-btn, .italic-btn, .underline-btn, .font-family-prop, .font-size-prop, .left , .center, .right, 
+.download, .open, .copy, .cut, .paste{
+    cursor: pointer;
+}
+
+.page-actions-cont {
+    height: 3rem;
+    background-color: #218c74;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 1rem;
+    font-size: 18px;
+    column-gap: 10px;
+}
+
+.page-action {
+    width: 3.5rem;
+    height: 2rem;
+    text-align: center;
+    color: #f1f2f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selected-page-action {
+    background-color: #f1f2f6;
+    color: #218c74;
+}
+
+.formula-actions-cont {
+    height: 2rem;
+    background-color: #ecf0f1;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.formula-actions-cont > input {
+    border: none;
+    outline: none;
+    height: 70%;
+}
+
+.address-bar {
+    width: 5rem;
+    text-align: center;
+}
+
+.formula-icon {
+    width: 1.2rem;
+}
+
+.formula-bar {
+    width: calc( 100vw - 5rem - 0.7rem - 0.7rem - 0.7rem);
+}
+
+.formula-actions-cont > * {
+    
+    margin-right: 0.7rem;
+}
+
+
