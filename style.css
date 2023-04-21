@@ -88,6 +88,20 @@ td{
     cursor: pointer;
 }
 
+.load{
+    position: relative;
+}
+
+.load > input {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
 .bold-btn, .italic-btn, .underline-btn, .font-family-prop, .font-size-prop, .left , .center, .right, 
 .download, .open, .copy, .cut, .paste{
     cursor: pointer;
